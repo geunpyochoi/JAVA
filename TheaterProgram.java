@@ -81,6 +81,7 @@ public class TheaterProgram {
 	{
 		String res;
 		if(sold[changeLevel(level)][position-1]) res="Sold";
+		
 		else res="Vacant";
 		
 		return res;
